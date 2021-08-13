@@ -9,7 +9,7 @@
   </head>
   <body>
     <div id="unity-container" class="unity-desktop">
-      <canvas id="unity-canvas" width=1080 height=1920></canvas>
+      <canvas id="unity-canvas" width=576 height=720></canvas>
       <div id="unity-loading-bar">
         <div id="unity-logo"></div>
         <div id="unity-progress-bar-empty">
@@ -29,7 +29,7 @@
       var buildUrl = "Build";
       var loaderUrl = buildUrl + "/55b027cfe78bae9b0fbebad0d7c12abd.js";
       var config = {
-        dataUrl: buildUrl + "/1bd1e7a2ec71bf2b2327b4d5e8aa289d.data",
+        dataUrl: buildUrl + "/274248205724ab4e5deead653e32db0a.data",
         frameworkUrl: buildUrl + "/435ad46ac32451b3cb6b7bb5768ba53a.js",
         codeUrl: buildUrl + "/bf1b4b00993a1dbf8103d44ba6674ecc.wasm",
         streamingAssetsUrl: "StreamingAssets",
@@ -62,8 +62,8 @@
           mobileWarning.style.display = "none";
         }, 5000);
       } else {
-        canvas.style.width = "1080px";
-        canvas.style.height = "1920px";
+        canvas.style.width = "576px";
+        canvas.style.height = "720px";
       }
       loadingBar.style.display = "block";
 
